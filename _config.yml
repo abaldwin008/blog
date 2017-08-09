@@ -1,0 +1,19 @@
+# Site wide configuration
+title: "Learning Blog"
+description: "My computer code learning blog."
+baseurl: /blog
+
+
+# Jekyll configuration
+#repository: https://github.com/abaldwin008/blog
+
+
+# Site owner
+owner:
+  name: "Amy Baldwin"
+  email:
+  twitter: 
+  google:
+  bio: 
+  avatar: 
+  disqus-shortname: "abaldwin008"
