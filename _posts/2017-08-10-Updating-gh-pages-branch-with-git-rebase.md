@@ -10,3 +10,5 @@ Nothing except my initial 'Hello, world!' placeholder was visible. I tried not t
 Finally, everything was up-to-date on my branch, a simple git push should help right? Well, then git thought my branch was behind and tried to be helpful by running a git pull. I'm very happy I'm very familiar with what git pull does and knew that was not the right course to take and likely lead me in a circle back to where I started. A little more Googling and I learned that for my situation it was appropriate to rewrite the files by using the --force option. 
 
 I'm pleased to announce that I got my gh-pages branch up-to-date so that my work-in-progress blog that you're currently reading is visible to all. 
+
+Update: After I got done doing this it occurred to me that I probably could have merged the main branch into the gh-pages branch, resolved the conflicts and done a push which would likely work better if there were many collaborators on the github repo. I'll hopefully remember this lesson and give it a go the next time it becomes applicable.  
