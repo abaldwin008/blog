@@ -1,7 +1,7 @@
 # Site wide configuration
 title: "Learning Blog"
 description: "My computer code learning blog."
-baseurl: /blog
+baseurl: "/blog"
 
 
 # Jekyll configuration
