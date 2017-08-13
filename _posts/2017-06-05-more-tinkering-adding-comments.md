@@ -5,7 +5,7 @@ postHero: /images/large/slide1.jpg
 postAuthor: Amy
 authorTwitter: https://twitter.com/amyb008
 gravatar: https://1.gravatar.com/avatar/d44fe63cf420551f2b70463077b14f06
-postFooter: Additional information, and maybe a <a href="#">link or two</a>
+
 ---
 
 I've finished the tutorial. Now for a small list of a few little refinements I *could* make in the future that are curently deliberate features in the site. 
