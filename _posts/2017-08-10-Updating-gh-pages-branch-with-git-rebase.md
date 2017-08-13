@@ -2,6 +2,8 @@
 layout: post
 title: Updating Github Pages Branch with Git rebase
 postAuthor: Amy
+authorTwitter: https://twitter.com/amyb008
+gravatar: https://1.gravatar.com/avatar/d44fe63cf420551f2b70463077b14f06
 ---
 I'm in the process of (finally) getting my blog up and running, though I've been writing the occasional article about my coding journey, I’ve had other priorities in life in the last six weeks. After much tinkering, I decided to put a commit in even though it's still very much a work in progress then headed over to the url to see that everything worked properly.
 
