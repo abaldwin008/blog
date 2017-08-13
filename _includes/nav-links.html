@@ -1,18 +1,11 @@
-<ul>
-	<div class="left">
-		<li>
-			<a href="{{ site.baseurl }}/">Home</a>
-		</li>
-	</div>
-	<div class="right" style="text-align: right;">
-		<li>
-			<a href="{{site.baseurl}}/">About</a>
-		</li>
-		<li>
-			<a href="{{site.baseurl }}/">Contact</a>
-		</li>
-		<li>
-			<a href="{{ site.baseurl }}{{ site.posts.first.url }}">Newest Post</a>
-		</li>
+<nav>
+	<div class="nav-wrapper">
 
-</ul>
+		<a href="{{ site.baseurl }}/" class="brand-logo" style="padding-left: 5px">Home</a>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">			
+			<li><a href="{{site.baseurl}}/">About</a></li>
+			<li><a href="{{site.baseurl }}/">Contact</a></li>
+			<li><a href="{{ site.baseurl }}{{ site.posts.first.url }}">Newest Post</a></li>
+		</ul>
+	</div>
+</nav>
