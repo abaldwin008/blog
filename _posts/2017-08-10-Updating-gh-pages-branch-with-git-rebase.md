@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updating Github Pages Branch with Git rebase
+title: Updating with Git Rebase
 postAuthor: Amy
 authorTwitter: https://twitter.com/amyb008
 gravatar: https://1.gravatar.com/avatar/d44fe63cf420551f2b70463077b14f06
