@@ -6,7 +6,7 @@ layout: default
 <ul>
   <li>
     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-    <span>Posted: {{ post.date | date: "%-d %B %Y"}} by {{ post.postAuthor }}</span>
+    <span>{{ post.date | date: "%-d %B %Y"}} by {{ post.postAuthor }}</span>
   </li>
   {% endfor %}
 </ul>
