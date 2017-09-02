@@ -4,7 +4,7 @@ title: Practical JavaScript Tutorial
 postAuthor: Amy
 postFooter: This post is about <a href="https://watchandcode.com/courses/60264/">Watch and Code's Practical JavaScript</a>
 ---
-<h2>The Assignment</h2>
+The Assignment
 <li>Create a to-do-list using simple JavaScript without any framework</li>
 
 <h2>Tools</h2>

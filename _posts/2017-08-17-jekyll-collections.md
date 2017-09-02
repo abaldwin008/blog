@@ -14,7 +14,7 @@ I've been reading about various options. Some considerations include I would lik
 Cons of using Jekyll Collections/Categories:
 Makes defult <a href="https://jekyllrb.com/docs/permalinks/" target="_blank">permalink</a> long. Permalink can be customized, however site will need to be reworked to accomidate that.
 
-<h4>Jekyll Collections Reading List</h4>
+Jekyll Collections Reading List
 <ul>
 	<li><a href="https://jekyllrb.com/docs/collections/">Jekyll Collections</a> | Official Documentation</li>
 	<li><a href="https://ben.balter.com/2015/02/20/jekyll-collections/">Explain like I'm five: Jekyll collections</a> | Ben Balter</li>
