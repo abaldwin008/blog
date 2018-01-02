@@ -6,14 +6,11 @@ font-family: 'Raleway', sans-serif;
 Contents:
 General
 Navigation
-About;
+About
 
 */
 
 /* general styles*/
-/*fixed footer */
-
-
 .h1 {
 	font-family: 'Playfair Display', serif;
 }
@@ -22,28 +19,31 @@ About;
     font-weight: 600;
     font-size: 1.5em;
 }
-
-
 /* navigation */
 .nav-wrapper{	
     font-family: raleway;
     text-transform: uppercase;
     font-weight: 600;
+    color: #4a148c 
 }
-
 /*footer */
-.footer {
+.col.s12.m6.cpyrgt {
 	font-family: 'Raleway', sans-serif;
-
+}
+.social-foot {
+    text-align: right;
 }
 .fa {
 	font-size: 24px;
 	padding-left: 10px;
 	padding-right: 10px;
+    background: #e1bee7;
+    border-radius: 50%;
+    height: 5vh;
+    padding-top: 1vh;
+    color: #4a148c ;
 }
-
 /* about */
-
 .abt-container {
 	margin-top: 4%;
 }
@@ -61,7 +61,6 @@ About;
     font-size: 1.25rem;
     line-height: 1.5;
 }
-
 /* contact */
 .contact-container {
 	padding-bottom: 4%;
@@ -69,23 +68,22 @@ About;
 form {
 /*	width: 70%; */
     margin: 4% auto 0;
-    border: 5px solid purple;
+    border: 5px solid #aa00ff ;
     border-radius: 7px;
     padding: 2%;
 }
-
 div.input {
     border: 1px solid black;
 }
 .email-input {
 	background: : orange;
 }
-form button {
-	background: purple;
-    color: white;
+.waves-effect.waves-light.btn {
+	background: #4a148c;
+    color: #f3e5f5;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
-    border-radius: 15px;
+    /*border-radius: 15px;
     padding: 11px 15px;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2rem;*/
 }

@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<h1>Blog Posts</h1>
+<h1 class="h1 center">Blog Posts</h1>
+	{{ paginate.current_page }}
 {% for post in site.posts %}
-<ul>
+<ul class="paginate">
   <li>
     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
     <span>{{ post.date | date: "%-d %B %Y"}} by {{ post.postAuthor }}</span>
