@@ -20,10 +20,10 @@ About;
 }
 
 /* navigation */
-.nav-wrapper{
-	/*text-transform: uppercase;*/
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+.nav-wrapper{	
+    font-family: raleway;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 /* about */
@@ -32,12 +32,40 @@ About;
 	margin-top: 4%;
 }
 .abt-photo {
-	max-width: 85%;
-    border-radius: 100%;
-    margin-top: 4%;
+	max-width: 100%;
+    border-radius: 50%;
+    /* margin-top: 4%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin: 0 auto; */
+    margin-bottom: 2%;
 }
 .abt-rgt {
     font-family: raleway;
     font-size: 1.25rem;
     line-height: 1.5;
+}
+
+/* contact */
+form {
+/*	width: 70%; */
+    margin: 4% auto 0;
+    border: 5px solid purple;
+    border-radius: 7px;
+    padding: 2%;
+}
+
+div.input {
+    border: 1px solid black;
+}
+.email-input {
+	background: : orange;
+}
+form button {
+	      background: purple;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'playfaire display';
+    border-radius: 15px;
+    padding: 11px 15px;
 }
