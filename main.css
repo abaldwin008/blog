@@ -62,10 +62,10 @@ div.input {
 	background: : orange;
 }
 form button {
-	      background: purple;
+	background: purple;
     color: white;
     text-transform: uppercase;
-    font-family: 'playfaire display';
+    font-family: 'Playfair Display', serif;
     border-radius: 15px;
     padding: 11px 15px;
 }
