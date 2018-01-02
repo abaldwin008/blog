@@ -1,0 +1,43 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+
+
+Contents:
+General
+Navigation
+About;
+
+*/
+
+
+
+/* general styles*/
+.h2 {
+    font-family: 'raleway';
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* navigation */
+.nav-wrapper{
+	/*text-transform: uppercase;*/
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+/* about */
+
+.abt-container {
+	margin-top: 4%;
+}
+.abt-photo {
+	max-width: 85%;
+    border-radius: 100%;
+    margin-top: 4%;
+}
+.abt-rgt {
+    font-family: raleway;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
