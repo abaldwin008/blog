@@ -10,20 +10,36 @@ About;
 
 */
 
-
-
 /* general styles*/
+/*fixed footer */
+
+
+.h1 {
+	font-family: 'Playfair Display', serif;
+}
 .h2 {
-    font-family: 'raleway';
+  	font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 1.5em;
 }
+
 
 /* navigation */
 .nav-wrapper{	
     font-family: raleway;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+/*footer */
+.footer {
+	font-family: 'Raleway', sans-serif;
+
+}
+.fa {
+	font-size: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* about */
@@ -47,6 +63,9 @@ About;
 }
 
 /* contact */
+.contact-container {
+	padding-bottom: 4%;
+}
 form {
 /*	width: 70%; */
     margin: 4% auto 0;
@@ -68,4 +87,5 @@ form button {
     font-family: 'Playfair Display', serif;
     border-radius: 15px;
     padding: 11px 15px;
+    letter-spacing: 0.2rem;
 }
