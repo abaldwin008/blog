@@ -5,7 +5,7 @@ baseurl: "/blog"
 
 
 # Jekyll configuration
-#repository: https://github.com/abaldwin008/blog
+#repository: https://github.com/amybaldwindev/blog
 
 
 # Site owner
@@ -16,6 +16,6 @@ owner:
   google:
   bio: 
   avatar: 
-  disqus-shortname: "abaldwin008"
+  disqus-shortname: "amybaldwindev"
 #Google services
 google_analytics: UA-104493899-1
