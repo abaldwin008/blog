@@ -12,19 +12,19 @@ About
 
 /* general styles*/
 .h1 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 }
 .h2 {
-  	font-family: 'Playfair Display', serif;
+  	font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1.5em;
 }
 /* navigation */
 .nav-wrapper{	
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    color: #4a148c 
+    color: #4a148c;
 }
 /*footer */
 .col.s12.m6.cpyrgt {
@@ -34,9 +34,9 @@ About
     text-align: right;
 }
 .fa {
-	font-size: 24px;
-	padding-left: 10px;
-	padding-right: 10px;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: #e1bee7;
     border-radius: 50%;
     height: 5vh;
@@ -48,16 +48,12 @@ About
 	margin-top: 4%;
 }
 .abt-photo {
-	max-width: 100%;
     border-radius: 50%;
-    /* margin-top: 4%; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin: 0 auto; */
     margin-bottom: 2%;
+    max-width: 100%;
 }
 .abt-rgt {
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
 }
@@ -66,10 +62,9 @@ About
 	padding-bottom: 4%;
 }
 form {
-/*	width: 70%; */
-    margin: 4% auto 0;
-    border: 5px solid #aa00ff ;
     border-radius: 7px;
+    border: 5px solid #aa00ff ;
+    margin: 4% auto 0;
     padding: 2%;
 }
 div.input {
@@ -79,11 +74,45 @@ div.input {
 	background: : orange;
 }
 .waves-effect.waves-light.btn {
-	background: #4a148c;
-    color: #f3e5f5;
+    background: #4a148c;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0vh;
+    /*padding: 11px 15px;*/
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    /*border-radius: 15px;
-    padding: 11px 15px;
-    letter-spacing: 0.2rem;*/
+}
+
+.waves-effect.waves-light.btn.btn-gallery {
+    border-radius: 50%;
+    float: right;
+    font-family: 'raleway', sans-serif;
+    height: 9vh;
+    margin-right: 6%;
+    margin-top: -30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2vh;
+}
+.col.s12.m4 {
+    border: 5px solid purple;
+}
+img {
+    border-radius: 47%;
+    max-width: 98%;
+}
+@media only screen and (max-width: 765px) {
+    .fa {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #e1bee7;
+        border-radius: 50%;
+        height: 6vh;
+        padding-top: 1.5vh;
+        color: #4a148c;
+    }
+    .col.s12.m6  {
+        text-align: center;
+    }
+
 }
